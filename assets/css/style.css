@@ -1,0 +1,160 @@
+/* assets/css/style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9fafb;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+    color: #34495e;
+    margin-bottom: 25px;
+    letter-spacing: 1.2px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+table th {
+    background-color: #ecf0f1;
+    color: #7f8c8d;
+    font-weight: 600;
+    border: none;
+}
+
+table td {
+    background-color: #fafafa;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+table tr:hover td {
+    background-color: #e1e8f0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 4px 6px 4px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    box-shadow: none;
+    user-select: none;
+}
+
+.btn-add {
+    background: #27ae60;
+    color: #fff;
+}
+
+.btn-add:hover {
+    background: #219150;
+    box-shadow: 0 4px 8px rgba(39, 174, 96, 0.4);
+}
+
+.btn-edit {
+    background: #2980b9;
+    color: #fff;
+}
+
+.btn-edit:hover {
+    background: #1f669e;
+    box-shadow: 0 4px 8px rgba(41, 128, 185, 0.4);
+}
+
+.btn-delete {
+    background: #c0392b;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background: #922b21;
+    box-shadow: 0 4px 8px rgba(192, 57, 43, 0.4);
+}
+
+.btn-use, .btn-restock {
+    background: #16a085;
+    color: #fff;
+}
+
+.btn-use:hover, .btn-restock:hover {
+    background: #12806a;
+    box-shadow: 0 4px 8px rgba(22, 160, 133, 0.4);
+}
+
+form input, form select {
+    width: 100%;
+    padding: 10px 12px;
+    margin: 8px 0 14px 0;
+    border: 1.5px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s ease;
+    outline: none;
+    box-sizing: border-box;
+}
+
+form input:focus, form select:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.3);
+}
+
+button[type="submit"], button[type="button"] {
+    padding: 10px 18px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.2s ease;
+    user-select: none;
+}
+
+button[type="submit"] {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(41, 128, 185, 0.3);
+}
+
+button[type="submit"]:hover {
+    background-color: #1f669e;
+    box-shadow: 0 6px 12px rgba(41, 128, 185, 0.5);
+}
+
+button[type="button"] {
+    background-color: #95a5a6;
+    box-shadow: 0 4px 8px rgba(149, 165, 166, 0.3);
+}
+
+button[type="button"]:hover {
+    background-color: #7f8c8d;
+    box-shadow: 0 6px 12px rgba(127, 140, 141, 0.5);
+}

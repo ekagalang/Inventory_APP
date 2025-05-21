@@ -1,7 +1,7 @@
 <?php
 // inc/config.php
 // Koneksi PDO ke SQLite
-define('DB_FILE', __DIR__ . '/../db/db_inventory.sqlite');
+define('DB_FILE', __DIR__ . '/tmp/db_inventory.sqlite');
 
 try {
     $pdo = new PDO('sqlite:' . DB_FILE);
